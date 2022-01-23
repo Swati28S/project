@@ -36,7 +36,7 @@ public class ExtentReporterStepUP extends BaseClass {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 
-		String destination = System.getProperty("user.dir") + "/FailedTestScreenshot/" + screenshotName + dateName+ ".jpg";
+		String destination = System.getProperty("user.dir") + "/Jan2022FailedTestScreenshot/" + screenshotName + dateName+ ".jpg";
 		
 		try {
 			FileUtils.copyFile(source, new File(destination));
@@ -56,7 +56,7 @@ public class ExtentReporterStepUP extends BaseClass {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		
-		String distination=System.getProperty("user.dir")+"/PassedTestScreenshot/"+screenshotName+dateName+".jpg";
+		String distination=System.getProperty("user.dir")+"/Jan20202PassedTestScreenshot/"+screenshotName+dateName+".jpg";
 		
 		try {
 			FileUtils.copyFile(source, new File(distination));

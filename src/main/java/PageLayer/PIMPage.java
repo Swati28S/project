@@ -48,7 +48,7 @@ public class PIMPage extends BaseClass {
 	@FindBy(id="personal_optGender_2")
 	WebElement femaleRadionButtonInPIMPage;
 	
-	@FindBy(id="personal_cmbNation")
+	@FindBy(id="personal_cmbNa")
 	WebElement NationalityDropDownInPIMPage;
 	
 	

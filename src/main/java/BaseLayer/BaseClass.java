@@ -41,7 +41,8 @@ public class BaseClass {
 
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\l470\\Desktop\\24OctAutomation Batch\\Selenium setup\\chromedriver_win32 (5)\\chromedriver.exe");
+					"C:\\Users\\l470\\Desktop\\25 Dec 2021 Automation Testing\\Selenium SetUp\\chromedriver_win32 (6)\\chromedriver.exe");
+
 			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("edge"))
